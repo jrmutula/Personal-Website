@@ -16,7 +16,7 @@ img{
 	padding-right: 0;
 }
 
-.containerr{
+.container{
 	display: inline-block;
 	padding: 10px;
 	text-align: center;
@@ -184,7 +184,9 @@ img{
 	position: absolute;
 	top: 0px;
 	left: 50%;
+	right: 50%;
 	margin-left: -100px;
+	margin-right: -100px;
 	background: #4e2e28;
 	-webkit-transform: translateY(-50%) rotate(45deg);
 	-moz-transform: translateY(-50%) rotate(45deg);
@@ -296,7 +298,7 @@ img{
 	color: #fff;
 	z-index: 2;
 	padding: 0;
-	width: 50%;
+	width: 100%;
 	left: 25%;
 	top: 50%;
 	margin: 10px 0 0 0;
