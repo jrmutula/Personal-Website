@@ -9,7 +9,8 @@
 	<meta name="keywords" content="css3, transitions, animations, css-only, navigation, smooth scrolling, full width, full height, window width, window height" />
 	<meta name="author" content="Portfolio" />
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/set2.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 </head>
@@ -18,7 +19,7 @@
 
 	<div class="st-container">
 
-		
+
 		<input type="radio" name="radio-set" checked="checked" id="st-control-1" />
 		<a href="#st-panel-1">Home</a>
 		<input type="radio" name="radio-set" id="st-control-2" />
@@ -44,44 +45,70 @@
 			<section class="st-panel st-color" id="st-panel-2">
 				<div class="st-deco" data-icon="A.P"></div>
 				<h2>All Projects</h2>
-				<section class="containerr">
-		<div id="iml">
-			<a href="http://sportify.bitballoon.com/">
-				<img src="images/IMG_20160725_145908.jpg">
-			</a>
+					<div class="container">
+			<div class="content">
+				<div class="grid">
+					<figure class="effect-julia">
+						<img src="images/IMG_20160725_145908.jpg" alt="img21"/>
+						<figcaption>
+							<h2><span>Sprotify</span></h2>
+							<div>
+								<p>Julia dances in the deep dark</p>
+								<p>She loves the smell of the ocean</p>
+								<p>And dives into the morning light</p>
+							</div>
+							<a href=""></a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-julia">
+						<img src="images/IMG_20160725_145953.jpg" alt="img22"/>
+						<figcaption>
+							<h2><span>Cani Rides</span></h2>
+							<div>
+								<p>Julia dances in the deep dark</p>
+								<p>She loves the smell of the ocean</p>
+								<p>And dives into the morning light</p>
+							</div>
+							<a href=""></a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-julia">
+						<img src="images/IMG_20160725_150037.jpg" alt="img22"/>
+						<figcaption>
+							<h2><span>El Magnifico</span></h2>
+							<div>
+								<p>Julia dances in the deep dark</p>
+								<p>She loves the smell of the ocean</p>
+								<p>And dives into the morning light</p>
+							</div>
+							<a href=""></a>
+						</figcaption>			
+					</figure>
+				</div>
+				</div>
+			</div>
 		</div>
-		<div id="imr">
-			<a href="http://canirides.bitballoon.com/">
-				<img src="images/IMG_20160725_145953.jpg">
-			</a>
-		</div>
-		<div id="iml">
-			<a >
-				<img src="images/IMG_20160725_150037.jpg">
-			</a>
-		</div>
-	</section>
 			</section>
 			<section class="st-panel" id="st-panel-3">
 				<div class="st-deco" data-icon="F.E.P"></div>
-				<h2>Front End Projectss</h2>
+				<h2>Front End Projects</h2>
 				<section class="containerr">
-		<div id="iml">
-			<a href="http://sportify.bitballoon.com/">
-				<img src="images/IMG_20160725_145908.jpg">
-			</a>
-		</div>
-		<div id="imr">
-			<a href="http://canirides.bitballoon.com/">
-				<img src="images/IMG_20160725_145953.jpg">
-			</a>
-		</div>
-		<div id="iml">
-			<a >
-				<img src="images/IMG_20160725_150037.jpg">
-			</a>
-		</div>
-	</section>
+					<div id="iml">
+						<a href="http://sportify.bitballoon.com/">
+							<img src="images/IMG_20160725_145908.jpg">
+						</a>
+					</div>
+					<div id="imr">
+						<a href="http://canirides.bitballoon.com/">
+							<img src="images/IMG_20160725_145953.jpg">
+						</a>
+					</div>
+					<div id="iml">
+						<a>
+							<img src="images/IMG_20160725_150037.jpg">
+						</a>
+					</div>
+				</section>
 			</section>
 
 			<section class="st-panel st-color" id="st-panel-4">
@@ -98,6 +125,12 @@
 	</div>
 
 	</div>
+	<script>
+			// For Demo purposes only (show hover effect on mobile devices)
+			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
 </body>
 
 </html>

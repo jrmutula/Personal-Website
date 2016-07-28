@@ -67,8 +67,6 @@ img{
 	text-shadow: 1px 1px 1px rgba(151, 24, 64, 0.2);
 }
 
-/* "Fix" for percentage rounding: add a background bar pseudo element with the same color like the labels */
-
 .st-container:before {
 	position: fixed;
 	width: 100%;
