@@ -10,9 +10,11 @@
 }
 
 .flright{
-	float: right;
 	padding-right: 0;
-	margin-right: 0;
+	margin-right: -45px;
+	float: right;
+	padding-left: 10px;
+	clear: right;
 }
 
 /* Common style */
@@ -110,7 +112,6 @@ figure.effect-julia figcaption {
 
 figure.effect-julia h2 {
 	position: relative;
-	padding: 0.5em 0;
 }
 
 figure.effect-julia p {
@@ -172,14 +173,14 @@ figure.effect-julia:hover p {
 
 /* Media queries */
 @media screen and (max-width: 50em) {
-	.content {
+	.projects {
 		padding: 0 10px;
 		text-align: center;
 	}
 	.grid figure {
 		display: inline-block;
-		float: none;
 		margin: 10px auto;
 		width: 100%;
+		float: right;
 	}
 }
