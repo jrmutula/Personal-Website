@@ -22,11 +22,6 @@ body {
 .projects > h2 {
 	clear: both;
 	margin: 0;
-	color: #484B54;
 	font-weight: 800;
 	font-size: 1.5em;
-}
-
-.projects > h2:first-child {
-	padding-top: 0em;
 }

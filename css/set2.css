@@ -21,8 +21,8 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px;
-	max-width: 500px;
-	max-height: 250px;
+	max-width: 450px;
+	max-height: 225px;
 	width: 40%;
 	text-align: center;
 	cursor: pointer;
@@ -37,10 +37,9 @@
 }
 
 .grid figure figcaption {
-	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.25em;
+	font-size: 1em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -55,8 +54,6 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
 }
 
 /* Anchor will cover the whole item by default */
@@ -64,18 +61,17 @@
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 100%;
-	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
 }
 
 .grid figure h2 {
 	word-spacing: -0.15em;
-	font-weight: 300;
+	font-weight: 200;
 }
 
 .grid figure h2 span {
-	font-weight: 800;
+	font-weight: 200;
 }
 
 .grid figure h2,
@@ -85,7 +81,7 @@
 
 .grid figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%;
+	font-size: 36px;
 }
 
 /* Individual effects */
@@ -100,7 +96,8 @@ figure.effect-julia {
 
 figure.effect-julia img {
 	max-width: none;
-	height: 500px;
+	height: 225px;
+	width: 450px;
 	-webkit-transition: opacity 1s, -webkit-transform 1s;
 	transition: opacity 1s, transform 1s;
 	-webkit-backface-visibility: hidden;
