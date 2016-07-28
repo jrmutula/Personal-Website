@@ -7,7 +7,45 @@
 	font-family: 'Josefin Sans', sans-serif;
 	color: white;
 }
-h2 {}
+
+img{
+	width: 450px;
+	height: 225px;
+	border: 6px solid #835C3B;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.containerr{
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+#iml{
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	float: left;
+}
+
+#imr{
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	float: right;
+}
+
+#iml{
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	float: left;
+}
+
 .st-container > input,
 .st-container > a {
 	position: fixed;
